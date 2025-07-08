@@ -1,1 +1,1 @@
-this to secure your site and ajaxes with $sess_name = 'SESSION' and $cookie='A VALUE'
+this to secure your site and ajaxes with $sess_name = 'SESSION' and $cookie='A VALUE' IF YOU USE $_SESSION yYOU NEED session_write_close VERY FAST.
