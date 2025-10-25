@@ -1,6 +1,6 @@
 Highly apreciated if using this because me here to self-distinguish.
 
-Include in footer(include function of PHP on providing those 2 variables) after you logged in $_REQUEST[$sess_name] and $_COOKIE[$sess_name] to check server side.< ? php ob_flush(); header("Location : ".$url(absolute or relative)); exit(); ? > without generating before output to redirect to index to log in,destroying the output ob_flush();
+Include in footer(include function of PHP on providing those 2 variables) after you logged in $_REQUEST[$sess_name] and $_COOKIE[$sess_name] to check server side.< ? php ob_flush(); header("Location : ".$url(absolute starting / is documentroot or relative)); exit(); ? > without generating before output to redirect to index to log in,destroying the output ob_flush();
 
 < ? php .... ? > processing instruction,< ? = .... ? > the same as echo
 
