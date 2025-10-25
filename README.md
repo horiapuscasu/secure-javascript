@@ -1,6 +1,6 @@
 Highly apreciated if using this because me here to self-distinguish.
 
-Include in footer(include function of PHP on providing those 2 variables) after you logged in $_REQUEST[$sess_name] and $_COOKIE[$sess_name] to check server side.< ? php ob_flush(); header("Location : ".$url(absolute starting / is documentroot, ../ parent directory, ./ the directory itself  or relative, the magic constant __ DIR __ the directory of the script https://www.php.net/manual/en/language.constants.magic.php ex __ DIR __ .DIRECTORY_SEPARATOR.".." the parent directory,PHP_EOL \r\n windows \n linux ex echo \r\n";"...)); exit(); ? > without generating before output to redirect to index to log in,destroying the output ob_flush();
+Include in footer(include function of PHP on providing those 2 variables) after you logged in $_REQUEST[$sess_name] and $_COOKIE[$sess_name] to check server side.< ? php ob_flush(); header("Location : ".$url(absolute starting / is documentroot, ../ parent directory, ./ the directory itself  or relative, the magic constant __ DIR __ the directory of the script https://www.php.net/manual/en/language.constants.magic.php ex __ DIR __ .DIRECTORY_SEPARATOR.".." the parent directory,PHP_EOL \r\n windows \n linux ex echo "\r\n";...)); exit(); ? > without generating before output to redirect to index to log in,destroying the output ob_flush();
 
 < ? php .... ? > processing instruction,< ? = .... ? > the same as echo
 
